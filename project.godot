@@ -11,13 +11,14 @@ config_version=5
 [application]
 
 config/name="La Calculatrice"
+run/main_scene="res://calculator.tscn"
 config/features=PackedStringArray("4.1", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [display]
 
-window/size/viewport_width=550
-window/size/viewport_height=1000
+window/size/viewport_width=376
+window/size/viewport_height=591
 
 [rendering]
 

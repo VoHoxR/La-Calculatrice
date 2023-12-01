@@ -1,7 +1,11 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1701103593
+::res://::1701448045
+calculator.gd::GDScript::-1::1701364508::0::1::::<>Control<>::
+calculator.tscn::PackedScene::233953351978496694::1701364508::0::1::::<><>::res://calculator.gd<>uid://cv0amw6f3f5px::::res://TF2BUILD.TTF<>uid://c0e81i1nxo144::::res://assets/tf2/scout.jpg<>uid://v61ahko2euqo::::res://assets/tf2/soldier.jpg<>uid://c36t2whnh11y4::::res://assets/tf2/pyro.jpg<>uid://6u02pltj4056::::res://assets/tf2/demoman.jpeg<>uid://opfdibhoo202::::res://assets/tf2/heavy.jpg<>uid://vmqj60cbtsfo::::res://assets/tf2/engineer.jpeg<>uid://eawwbnwoywpx::::res://assets/tf2/medic.jpg<>uid://cogxdn3ekp6yl::::res://assets/tf2/sniper.jpg<>uid://bg8ih17j1sdxc::::res://assets/tf2/spy.jpg
 icon.svg::CompressedTexture2D::5649229811337045024::1701102714::1701102723::1::::<><>::
-::res://assets/::1701103262
+README.md::TextFile::-1::1701103644::0::1::::<><>::
+TF2BUILD.TTF::FontFile::6298439160830701653::1701190485::1701190490::1::::<><>::
+::res://assets/::1701275836
 Addition_btn.png::CompressedTexture2D::8979016597074219044::1701103262::1701103262::1::::<><>::
 Delete_btn.png::CompressedTexture2D::562704420804624833::1701103262::1701103262::1::::<><>::
 Division_btn.png::CompressedTexture2D::7750601960894546465::1701103262::1701103262::1::::<><>::
@@ -9,3 +13,13 @@ Equal_btn.png::CompressedTexture2D::4271452371948750321::1701103262::1701103262:
 Multiplication_btn.png::CompressedTexture2D::8151348549104635893::1701103262::1701103262::1::::<><>::
 Negate_btn.png::CompressedTexture2D::5924410492782670104::1701103262::1701103262::1::::<><>::
 Subtraction_btn.png::CompressedTexture2D::8704481313818191378::1701103262::1701103262::1::::<><>::
+::res://assets/tf2/::1701275836
+demoman.jpeg::CompressedTexture2D::2218708654834363799::1701275833::1701275836::1::::<><>::
+engineer.jpeg::CompressedTexture2D::1499727460413744680::1701275833::1701275836::1::::<><>::
+heavy.jpg::CompressedTexture2D::1013918841657841609::1701275833::1701275836::1::::<><>::
+medic.jpg::CompressedTexture2D::282130509483964301::1701275833::1701275836::1::::<><>::
+pyro.jpg::CompressedTexture2D::6803327705853358677::1701275833::1701275836::1::::<><>::
+scout.jpg::CompressedTexture2D::6537870521729764959::1701275833::1701275836::1::::<><>::
+sniper.jpg::CompressedTexture2D::5769274019312164303::1701275833::1701275836::1::::<><>::
+soldier.jpg::CompressedTexture2D::1539540452370314254::1701275833::1701275836::1::::<><>::
+spy.jpg::CompressedTexture2D::2876177863389954284::1701275833::1701275836::1::::<><>::
