@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://dllgbhqqob1o"]
+[gd_scene load_steps=15 format=3 uid="uid://dllgbhqqob1o"]
 
 [ext_resource type="Script" path="res://calculator.gd" id="1_05r63"]
 [ext_resource type="FontFile" uid="uid://cv0amw6f3f5px" path="res://TF2BUILD.TTF" id="1_uh6jf"]
@@ -11,6 +11,7 @@
 [ext_resource type="Texture2D" uid="uid://eawwbnwoywpx" path="res://assets/tf2/medic.jpg" id="8_a11jh"]
 [ext_resource type="Texture2D" uid="uid://cogxdn3ekp6yl" path="res://assets/tf2/sniper.jpg" id="9_4jysx"]
 [ext_resource type="Texture2D" uid="uid://bg8ih17j1sdxc" path="res://assets/tf2/spy.jpg" id="10_axobq"]
+[ext_resource type="AudioStream" uid="uid://mlf4lhcbjouw" path="res://Team-Fortress-2-Soundtrack-Main-Theme.mp3" id="12_jogq2"]
 
 [sub_resource type="SystemFont" id="SystemFont_ch3yt"]
 font_names = PackedStringArray("Wingdings 2")
@@ -199,6 +200,9 @@ custom_minimum_size = Vector2(163, 163)
 layout_mode = 2
 theme_override_font_sizes/font_size = 100
 text = "="
+
+[node name="thesong" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("12_jogq2")
 
 [connection signal="pressed" from="Screen/ColorRect/AllComponentsContainer/AllButtons/TopButtons/clear" to="." method="_on_clear_pressed"]
 [connection signal="pressed" from="Screen/ColorRect/AllComponentsContainer/AllButtons/TopButtons/negate" to="." method="_on_negate_pressed"]

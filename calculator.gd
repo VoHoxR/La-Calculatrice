@@ -109,3 +109,6 @@ func _on_solve_pressed():
 	prev_work_area.text = str(first_number) + " " + operator + " " + str(second_number)
 	work_area.text = str(snappedf(result, 0.0000000001))
 	decimal_allowed = true
+	
+	if work_area.text == "10102007":
+		$thesong.play()
